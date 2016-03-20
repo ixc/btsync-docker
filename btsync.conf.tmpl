@@ -1,0 +1,11 @@
+{
+  "listening_port" : 55555,
+  "storage_path" : "{{ .Env.PROJECT_DIR }}/var/.sync",
+  "shared_folders" :
+  [
+    {
+      "secret" : "{{ .Env.SECRET }}",
+      "dir" : "{{ .Env.PROJECT_DIR }}/var/shared_folder"
+    }
+  ]
+}

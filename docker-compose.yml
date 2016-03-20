@@ -1,0 +1,14 @@
+version: "2"
+services:
+  btsync:
+    build:
+      args:
+        PROJECT_NAME: btsync
+      context: .
+    image: interaction/btsync:latest
+    ports:
+      - "55555:55555"
+    volumes:
+      - btsync:/opt/btsync/var
+volumes:
+  btsync: {}

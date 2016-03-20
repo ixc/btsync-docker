@@ -1,0 +1,8 @@
+version: "2"
+services:
+  btsync:
+    environment:
+      SECRET: secret
+    volumes:
+      - ./var:/opt/btsync/var
+      - .:/opt/btsync
