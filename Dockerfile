@@ -1,4 +1,4 @@
-FROM interaction/base:latest
+FROM interaction/base:0.1
 
 # Sync a single standard folder, given a secret key.
 
