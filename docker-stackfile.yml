@@ -3,6 +3,6 @@ btsync:
     SECRET:
   image: interaction/btsync:latest
   ports:
-    - "55555:55555"
+    - "55555"
   volumes:
     - /opt/btsync/var
